@@ -1,12 +1,4 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "main": "dist/server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node dist/server.js",
-    "build": "tsc"
-  },
   "dependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/cors": "^2.8.17",
@@ -30,6 +22,12 @@
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "start": "nodemon server.ts"
   },
   "keywords": [],
   "author": "",
